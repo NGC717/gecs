@@ -64,36 +64,52 @@ ECS.world.add_system(VelocitySystem.new())
 ECS.world.process(delta)
 ```
 
-⚡ 快速开始
-安装：下载到 addons/gecs/ 目录，并在项目设置中启用插件
-阅读指南：5 分钟内运行你的第一个 ECS 项目 →
-深入学习：理解核心 ECS 概念 →
-📚 完整文档
-所有文档均位于插件文件夹中：
 
-→ 完整文档索引
+## ⚡ 快速开始
 
-快速导航
-入门指南 — 构建你的第一个 ECS 项目（5 分钟）
-核心概念 — 理解实体、组件、系统与关系（20 分钟）
-最佳实践 — 编写可维护的 ECS 代码（15 分钟）
-故障排除 — 快速解决常见问题
-高级功能
-组件查询 — 高级基于属性的过滤
-关系系统 — 实体链接与关联
-观察者 — 响应组件变化的响应式系统
-性能优化 — 让你的游戏运行更快
-🎮 示例游戏
-GECS-101 — 一个简单示例
-Zombies Ate My Neighbors — 动作街机游戏
-打砖块克隆版 — 经典打砖块游戏
-🌟 社区
-Discord：加入我们的社区
-问题反馈：报告 bug 或请求新功能
-讨论区：提问并分享你的项目
-📄 许可证
-MIT — 详情请参阅 LICENSE 。
+1. **安装**：下载到 `addons/gecs/` 目录，并在项目设置中启用插件  
+2. **阅读指南**：[5 分钟内运行你的第一个 ECS 项目 →](addons/gecs/docs/GETTING_STARTED.md)  
+3. **深入学习**：[理解核心 ECS 概念 →](addons/gecs/docs/CORE_CONCEPTS.md)  
 
-GECS 按“现状”提供。如果它坏了，你得自己承担后果。 😄
 
-Star History Chart
+## 📚 完整文档
+
+**所有文档均位于插件文件夹中：**
+
+**→ [完整文档索引](addons/gecs/README.md)**
+
+### 快速导航
+
+- **[入门指南](addons/gecs/docs/GETTING_STARTED.md)** — 构建你的第一个 ECS 项目（5 分钟）  
+- **[核心概念](addons/gecs/docs/CORE_CONCEPTS.md)** — 理解实体、组件、系统与关系（20 分钟）  
+- **[最佳实践](addons/gecs/docs/BEST_PRACTICES.md)** — 编写可维护的 ECS 代码（15 分钟）  
+- **[故障排除](addons/gecs/docs/TROUBLESHOOTING.md)** — 快速解决常见问题  
+
+### 高级功能
+
+- **[组件查询](addons/gecs/docs/COMPONENT_QUERIES.md)** — 高级基于属性的过滤  
+- **[关系系统](addons/gecs/docs/RELATIONSHIPS.md)** — 实体链接与关联  
+- **[观察者](addons/gecs/docs/OBSERVERS.md)** — 响应组件变化的响应式系统  
+- **[性能优化](addons/gecs/docs/PERFORMANCE_OPTIMIZATION.md)** — 让你的游戏运行更快  
+
+## 🎮 示例游戏
+
+- **[GECS-101](https://github.com/csprance/gecs-101)** — 一个简单示例  
+- **[Zombies Ate My Neighbors](https://github.com/csprance/gecs/tree/zombies-ate-my-neighbors/game)** — 动作街机游戏  
+- **[打砖块克隆版](https://github.com/csprance/gecs/tree/breakout/game)** — 经典打砖块游戏  
+
+## 🌟 社区
+
+- **Discord**：[加入我们的社区](https://discord.gg/eB43XU2tmn)  
+- **问题反馈**：[报告 bug 或请求新功能](https://github.com/csprance/gecs/issues)  
+- **讨论区**：[提问并分享你的项目](https://github.com/csprance/gecs/discussions)  
+
+## 📄 许可证
+
+MIT — 详情请参阅 [LICENSE](LICENSE)。
+
+---
+
+_GECS 按“现状”提供。如果它坏了，你得自己承担后果。_ 😄
+
+[![Star History Chart](https://api.star-history.com/svg?repos=csprance/gecs&type=Date)](https://star-history.com/#csprance/gecs&Date)
